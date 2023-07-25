@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <style>
-        .body {
+        body {
             font-family: 'Lato', sans-serif;
         }
     </style>
@@ -23,7 +23,7 @@
 
 <body>
     <!-- navigation section -->
-    <nav class="bg-red-500 p-4 rounded-full flex items-center justify-between pr-6 pl-6 mb-15 mr-[10px] ml-[180px] w-[1440px] h-[120px]">
+    <nav class="bg-red-500 p-4 rounded-full flex items-center justify-between pr-6 pl-6 mb-15 mx-auto w-[1440px] h-[120px] relative">
 
         <!-- Mobile view: Show Brand name on the left, and menu in a dropdown button -->
         <div class="flex items-center space-x-4 md:hidden">
@@ -81,7 +81,7 @@
 
 
     <!-- start of slider section -->
-    <div class="flex justify-center mt-16 w-[1440px]h-[520px] ">
+    <div class="flex justify-center mt-16 w-[1440px]h-[520px] mx-auto relative">
         <div class="carousel w-[1420px] h-[520px] mr-6">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="images/banner1.png" class="w-full" />
@@ -176,7 +176,7 @@
 
 
     <!-- deal of the day section -->
-    <section class="mt-32  flex justify-between w-[1400px] ml-[205px]">
+    <section class="mt-32  flex justify-between w-[1400px] mx-auto relative">
         <div>
 
             <h1 class="text-left text-4xl font-bold">Deal of the day</h1>
@@ -239,9 +239,9 @@
 
     <!-- card section -->
 
-    <section class="mt-20  flex justify-center gap-20 mb-3 w-[1400px] ml-[210px]">
+    <section class="mt-20  flex justify-center gap-20 mb-3 w-[1400px] mx-auto relative">
         <div class="card
-         bg-base-100 shadow-xl border border-gray-300 px-2">
+         bg-base-100 shadow-xl border border-gray-300 px-2 relative">
             <figure class="px-16 pt-10 mb-0 mt-5">
                 <img src="images/fruit1.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -292,7 +292,7 @@
 
         </div>
         <div class="card
-         bg-base-100 shadow-xl border border-gray-300 px-5 pt-5">
+         bg-base-100 shadow-xl border border-gray-300 px-5 pt-5 relative">
             <figure class="px-16 pt-10">
                 <img src="images/fruit2.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -343,7 +343,7 @@
 
         </div>
         <div class="card
-         bg-base-100 shadow-xl border border-gray-300">
+         bg-base-100 shadow-xl border border-gray-300 relative">
             <figure class="px-16 pt-10 mt-5">
                 <img src="images/fruit3.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -394,7 +394,7 @@
 
         </div>
         <div class="card
-         bg-base-100 shadow-xl border border-gray-300 px-2 pt-5">
+         bg-base-100 shadow-xl border border-gray-300 px-2 pt-5 relative">
             <figure class="px-16 pt-10">
                 <img src="images/fruit4.png" alt="Shoes" class="rounded-xl" />
             </figure>
@@ -449,7 +449,7 @@
 
     </section>
 
-    <div style="display: flex; justify-content: center;">
+    <div style="display: flex; justify-content: center; position: relative;">
         <button class="btn btn-error text-white  w-[140px] mb-20 text-center mt-16">Shop now</button>
     </div>
 
@@ -457,7 +457,7 @@
 
     <!-- meet the team section -->
 
-    <section class="flex justify-center  w-[1400px] ml-[200px]">
+    <section class="flex justify-center  w-[1400px] mx-auto relative">
         <!-- card 1 -->
         <div class="btnd text-center items-center space-y-10">
             <div class="mt-32">
@@ -589,7 +589,7 @@
 
 
     <!-- footer section -->
-    <footer class="w-full mt-32 h-[526px]" style="background-color:#121212;">
+    <footer class="w-100% mx-auto mt-32 h-[526px] relative" style="background-color:#121212;">
         <!-- row 1 -->
         <div class="flex justify-center gap-3 pt-32">
             <img src="images/logo.png" alt="">
