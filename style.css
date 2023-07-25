@@ -1,0 +1,24 @@
+.horizontal{
+    width:100%;
+    color:grey;
+    background-color: grey;
+    opacity: calc(0.5);
+}
+
+
+.btnd{
+    background-image: url("images/team.png");
+    width: 1440px;
+    height:650px;
+    /* filter: brightness(50%); */
+}
+
+.btnx{
+    width: 1440px;
+    height:690px;
+}
+
+.body{
+    overflow-x: hidden;
+
+}
