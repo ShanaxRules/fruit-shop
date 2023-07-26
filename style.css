@@ -6,6 +6,43 @@ body{
 }
 
 
+.bonus{
+
+    width: 1000px;
+height: 200px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
+position:relative;
+top: 520px;
+left:430px;
+z-index: 1;
+margin-bottom:230px;
+margin-top:0px;
+padding:20px;
+}
+
+.slideboy{
+    top:-330px;
+}
+
+.deal-day{
+    top:-230px;
+}
+
+.carders{
+    top:-230px;
+}
+
+.button-shop{
+    top:-230px;
+}
+
+.teamers{
+    top:-240px;
+}
+
+
 
 
 
