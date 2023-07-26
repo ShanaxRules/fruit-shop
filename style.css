@@ -72,6 +72,15 @@ padding:20px;
     height:690px;
 }
 
+.bunty{
+    visibility: hidden;
+    position:absolute;
+}
+
+.donkey{
+    visibility: visible;
+}
+
 
 @media screen and (max-width:640px){
     .btnd{
@@ -90,6 +99,32 @@ padding:20px;
     .bmw{
         
         text-align:center;
+    }
+
+    .ind{
+        margin-left:800px;
+        width:300px;
+    }
+
+    .bunty{
+        visibility: visible;
+    }
+
+    .donkey{
+        visibility:hidden;
+        position:absolute;
+    }
+
+
+    .response{
+        position:relative;
+        top:1500px;
+        left:700px;
+
+    }
+
+    .intu{
+        flex-wrap: wrap;
     }
 
    
