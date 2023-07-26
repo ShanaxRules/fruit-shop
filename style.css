@@ -72,3 +72,27 @@ padding:20px;
     height:690px;
 }
 
+
+@media screen and (max-width:640px){
+    .btnd{
+        background-image: url("images/response.png");
+        width: 330px;
+        height:1300px;
+        background-repeat: no-repeat;
+        /* filter: brightness(50%); */
+    }
+
+    .bingers{
+        margin-left:783px;
+        
+    }
+
+    .bmw{
+        
+        text-align:center;
+    }
+
+   
+
+}
+
