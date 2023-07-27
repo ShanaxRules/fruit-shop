@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="global.css" />
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;800&display=swap" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -19,9 +21,9 @@
       </div>
       <img class="frame-icon" alt="" src="Frame (3).png" />
     </div>
-    <img class="mobile-view-design-child" alt="" src="images/banner1.png" />
+    <!-- <img class="mobile-view-design-child" alt="" src="images/banner1.png" /> -->
 
-    <div class="mobile-view-design-item"></div>
+    <!-- <div class="mobile-view-design-item"></div>
     <div class="group-div">
       <div class="exotic-tastes-at-your-doorstep-parent">
         <div class="exotic-tastes-at">Exotic tastes at your doorstep</div>
@@ -35,7 +37,90 @@
     </div>
     <img class="mobile-view-design-inner" alt="" src="Frame (2).png" />
 
-    <img class="group-icon" alt="" src="Frame (1).png" />
+    <img class="group-icon" alt="" src="Frame (1).png" /> -->
+
+    <div class="flex justify-center lg:mt-16 w-[430px] h-[280px] lg:w-[1440px] lg:h-[520px] mx-auto relative slideboy ">
+      <div class="carousel lg:w-[1420px] lg:h-[520px] w-[335px] h-[190px] mr-6 mt-28">
+          <div id="slide1" class="carousel-item relative w-full">
+              <img src="images/banner1.png" class="w-full" />
+              <span
+                  class="absolute top-1/3 left-1/2 text-6xl font-bold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800 text-center">
+                  <h1 class=" text-xl lg:text-5xl lg:mb-32 lg:pt-32">
+                      Exotic
+                      Taste at your<br>Doorsteps
+                  </h1>
+              </span>
+              <span
+                  class="absolute top-1/2 left-1/2 text-6xl font-bold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800 text-center "><button
+                      class="btn btn-error text-white w-[120px] lg:w-[140px] lg:mb-20 lg:mt-32 mt-20">Buy
+                      now</button></span>
+
+
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide4" class="btn btn-circle">❮</a>
+                  <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+              <img src="images/banner2.png" class="w-full" />
+              <span
+                  class="absolute top-1/3 left-1/2 text-6xl font-bold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800 text-center">
+                  <h1 class="text-xl lg:text-5xl lg:mb-32 lg:pt-32">
+                      Exotic
+                      Taste at your<br>Doorsteps
+                  </h1>
+              </span>
+              <span
+                  class="absolute top-1/2 left-1/2 text-6xl font-bold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800 text-center "><button
+                      class="btn btn-error text-white w-[120px] lg:w-[140px] lg:mb-20 lg:mt-32 mt-20">Buy now</button></span>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle">❮</a>
+                  <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+              <img src="images/banner3.png" class="w-full" />
+              <span
+                  class="absolute top-1/3 left-1/2 text-6xl font-bold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800 text-center">
+                  <h1 class="text-xl lg:text-5xl lg:mb-32 lg:pt-32">
+                      Exotic
+                      Taste at your<br>Doorsteps
+                  </h1>
+              </span>
+              <span
+                  class="absolute top-1/2 left-1/2 text-6xl font-bold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800 text-center "><button
+                      class="btn btn-error text-white w-[120px] lg:w-[140px] lg:mb-20 lg:mt-32 mt-20">Buy now</button></span>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="btn btn-circle">❮</a>
+                  <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+              <img src="images/banner4.png" class="w-full" />
+              <span
+                  class="absolute top-1/3 left-1/2 text-6xl font-bold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800 text-center">
+                  <h1 class="text-xl lg:text-5xl lg:mb-32 lg:pt-32">
+                      Exotic
+                      Taste at your<br>Doorsteps
+                  </h1>
+              </span>
+              <span
+                  class="absolute top-1/2 left-1/2 text-6xl font-bold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800 text-center "><button
+                      class="btn btn-error text-white w-[120px] lg:w-[140px] lg:mb-20 lg:mt-32 mt-20">Buy now</button></span>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle">❮</a>
+                  <a href="#slide1" class="btn btn-circle">❯</a>
+
+              </div>
+
+          </div>
+
+
+      </div>
+
+
+
+  </div>
 
     <div class="deal-of-the-day-parent">
       <div class="deal-of-the">Deal of the day</div>
