@@ -12,49 +12,68 @@
     <style>
         /* Add some basic styling to make the iframes fill the whole page */
         body, html {
-            margin: 0;
+            
             padding: 0;
-            height: 100%;
-            overflow-x: hidden;
+            height:100%;
+            overflow-x:hidden;
+            
         }
 
         iframe {
-            width: 400px;
-            height: 836px;
-            border: none;
+            width: 100%;
+            height:100%;
+            border:none;
+           
+            
             overflow-x: hidden;
         }
 
          @media (min-width: 768px) {
             iframe[src="index-1.html"] {
                 display: block;
-                width:100%;
-                overflow-x:hidden;
+                width:1920px;
+                
             }
 
             iframe[src="index-2.html"] {
                 display: none;
             }
+
+            body{
+                
+                /* height:3900px; */
+                width:1920px;
+                height:3950px;
+                overflow-x:hidden;
+                
+            }
+
+            
         }
 
         /* Style for small devices - hide index-1.html and show index-2.html */
         @media (max-width: 767px) {
             iframe[src="index-1.html"] {
                 display: none;
+               
             }
 
             iframe[src="index-2.html"] {
                 display: block;
-                width:400px;
-                height:836px;
-                overflow-x:hidden;
+                
+            }
+            body{
+                overflow-y:hidden;
+                overflow-x: hidden;
+                height:6093px;
+                width:390px;
             }
         }
     </style>
     
 </head>
 <body>
-    <iframe  src="index-1.html"></iframe>
+    <iframe src="index-1.html"></iframe>
 
     <!-- iframe for small devices -->
     <iframe  src="index-2.html"></iframe>
