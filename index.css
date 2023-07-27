@@ -249,9 +249,9 @@
   position: absolute;
   top: 0;
   left: 69px;
-  width: 106px;
+  width: 116px;
   height: 131px;
-  object-fit: cover;
+  /* object-fit:; */
 }
 .apples,
 .b,
