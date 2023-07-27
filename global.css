@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-3xs-6: 9.6px;
+  --font-size-9xl-8: 28.8px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #121212;
+  --color-gray-200: rgba(18, 18, 18, 0.1);
+  --color-gray-300: rgba(18, 18, 18, 0.6);
+  --color-gray-400: rgba(18, 18, 18, 0.8);
+  --color-tomato: #f85559;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+}
